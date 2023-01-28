@@ -32,7 +32,7 @@ Instructions for achieving this appearance are detailed below.
 
 3. The header should be styled like a [Jumbotron](https://getbootstrap.com/docs/5.0/examples/jumbotron/). To achieve this:
 
-    - The `<header>` element should be made into a [fluid container](https://getbootstrap.com/docs/5.0/layout/containers/#fluid-containers) (that will fill the page). It should be [colored](https://getbootstrap.com/docs/5.0/utilities/colors/) with a "dark" background and "white" text. Finally, it should also have [padding](https://getbootstrap.com/docs/5.0/utilities/spacing/) in the "y" direction with a spacing size of `5`. 
+    - The `<header>` element should be made into a [fluid container](https://getbootstrap.com/docs/5.0/layout/containers/#fluid-containers) (that will fill the page). It should be [colored](https://getbootstrap.com/docs/5.0/utilities/colors/) with a "dark" background and "white" text. Finally, it should also have [padding](https://getbootstrap.com/docs/5.0/utilities/spacing/) in the "y" direction with a spacing size of `5`.
 
     - The "subtitle" paragraph should stand out as a [lead](https://getbootstrap.com/docs/5.0/content/typography/#lead)
 
@@ -50,7 +50,7 @@ Instructions for achieving this appearance are detailed below.
 
     - Use a [utility class](https://getbootstrap.com/docs/5.0/utilities/spacing/) to give the `<img>` elements _bottom padding_ equal to the "spacer" size (a spacing size of `3`).
 
-    - Also use a utility class to give each _`.card`_ 1.5 "spacers" worth of _bottom margin_ (a spacing size of `4`). This will put space between the cards. 
+    - Also use a utility class to give each _`.card`_ 1.5 "spacers" worth of _bottom margin_ (a spacing size of `4`). This will put space between the cards.
 
 5. By default the cards will be lined up in a 1x4 stack. However, on larger devices they should be arranged in a 2x2 or 4x1 grid. To support this, place all of the cards into a single `.row` of a Bootstrap [Grid](https://getbootstrap.com/docs/5.0/layout/grid/).
 
@@ -68,6 +68,6 @@ Instructions for achieving this appearance are detailed below.
 
     - On _small_ or larger displays, the image column should have an `auto` calculated width based on the ["natural width"](https://getbootstrap.com/docs/5.0/layout/grid/#variable-width-content) of the image, and the text column should have a width that takes up the [remaining space](https://getbootstrap.com/docs/5.0/layout/grid/#setting-one-column-width).
 
-    - Additionally, on _extra large_ or larger displays, the image column should take up the entire row (e.g., 12 "columns") 
+    - Additionally, on _extra large_ or larger displays, the image column should take up the entire row (e.g., 12 "columns")
 
     Note that this will cause the card content to be in "columns" on small or larger devices... but on extra-large displays the overall `container` sizing means that each card isn't large enough for them to be in columns, so they will go back to stacking as desired!
